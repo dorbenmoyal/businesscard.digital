@@ -42,6 +42,7 @@ es_language = {
 'Small business':'Pequeños negocios',
 'Shops':'Tiendas',
 'Photographers':'Fotógrafos',
+'Job search':'Búsqueda de empleo',
 'Musicians':'Músicos',
 'Politicians':'Políticos',
 'Designers':'Diseñadores',
@@ -177,11 +178,11 @@ function show_social_icons_section() {
 function show_network_marketing_pdf() {
 	
 	if (selected_language == 'es') {
-		document.write(" <a href='https://ivorybrand.github.io/businesscard.digital/documentation/network-marketing-pixelhub-pro-es.pdf' target='_blank'>");
+		document.write(" <a href='https://ivorybrand.github.io/businesscard.digital/web/documentation/network-marketing-pixelhub-pro-es.pdf' target='_blank'>");
 		show_translated_sentence('Click here for more details.')
 		document.write("</a>");
 	} else {
-		document.write(" <a href='https://ivorybrand.github.io/businesscard.digital/documentation/network-marketing-pixelhub-pro-en.pdf' target='_blank'>");
+		document.write(" <a href='https://ivorybrand.github.io/businesscard.digital/web/documentation/network-marketing-pixelhub-pro-en.pdf' target='_blank'>");
 		show_translated_sentence('Click here for more details.')
 		document.write("</a>"); 
 	}
