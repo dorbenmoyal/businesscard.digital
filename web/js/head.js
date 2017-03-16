@@ -177,12 +177,14 @@ function show_social_icons_section() {
 function show_network_marketing_pdf() {
 	
 	if (selected_language == 'es') {
-		document.write("<a href='https://ivorybrand.github.io/businesscard.digital/documentation/network-marketing-pixelhub-pro-es.pdf' target='_blank'>");
-		show_translated_sentence('Click here for more details')
+		document.write("&nbsp;
+<a href='https://ivorybrand.github.io/businesscard.digital/documentation/network-marketing-pixelhub-pro-es.pdf' target='_blank'>");
+		show_translated_sentence('Click here for more details.')
 		document.write("</a>");
 	} else {
-		document.write("<a href='https://ivorybrand.github.io/businesscard.digital/documentation/network-marketing-pixelhub-pro-en.pdf' target='_blank'>");
-		show_translated_sentence('Click here for more details')
+		document.write("&nbsp;
+<a href='https://ivorybrand.github.io/businesscard.digital/documentation/network-marketing-pixelhub-pro-en.pdf' target='_blank'>");
+		show_translated_sentence('Click here for more details.')
 		document.write("</a>"); 
 	}
 	
