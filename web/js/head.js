@@ -171,6 +171,7 @@ function show_vimeo_premium_video() {
 // Show social network icons section
 function show_social_icons_section() {
 	document.write("<div class='panel-grid' id='pg-8-12'><div class='siteorigin-panels-stretch panel-row-style' style='background-color:#d65050;color: #ffffff;padding: 25px 0; ' data-stretch-type='full' data-hascolor='hascolor' data-overlay='true'><div class='panel-grid-cell' id='pgc-8-12-0'><div class='so-panel widget widget_fp_social panel-first-child panel-last-child' id='panel-8-12-0-0' data-index='15'><div class='menu-social-container'><ul id='menu-social' class='menu social-menu-widget clearfix'><li id='menu-item-64' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-64'><a href='https://www.facebook.com/sharer/sharer.php?u=www.BusinessCard.Digital' title='Facebook'><span class='screen-reader-text'>Fb</span></a></li><li id='menu-item-65' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-65'><a title='Twitter' href='http://twitter.com/share?url=http://BusinessCard.Digital&amp;hashtags=DigitalBusinessCard'><span class='screen-reader-text'>Twitter</span></a></li><li id='menu-item-66' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-66'><a title='Google+' href='https://plus.google.com/share?url=http://businesscard.digital' target='_blank'><span class='screen-reader-text'>Google plus</span></a></li></ul></div></div></div></div></div>");
+	alert('sdf')
 }
 
 // Show network marketing pdfs
