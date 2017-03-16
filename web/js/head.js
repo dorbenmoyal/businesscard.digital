@@ -184,8 +184,9 @@ function show_network_marketing_pdf() {
 	} else {
 		document.write("<a href='https://ivorybrand.github.io/businesscard.digital/network-marketing-pixelhub-pro-en.pdf' target='_blank'>");
 		show_translated_sentence('Click here for more details')
-		document.write("</a>");
+		document.write("</a>"); 
 	}
+	
 	
 }
 
