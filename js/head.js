@@ -1,4 +1,178 @@
 
+//----------------------------------- TRANSLATIONS -------------------------------------------------------------------------------
+
+
+es_language = {
+"Home":"Inicio",
+"Pricing":"Precio",
+"Reviews":"Opiniones",
+"Examples":"Ejemplos",
+"Partner":"Premium",
+"Contact":"Contacto",
+"Do you control the image that others have about you?":"¿Controlas la imagen que tienen los demás sobre ti?",
+"This is really difficult, but for the first time you have the perfect tool to control your image. Create your own website and digital business card for only 9 euros.":"Esto es realmente difícil, pero por primera vez tú tienes la herramienta perfecta para controlar tu imagen. Crea tu propia web y tarjeta de visita digital por solo 9 euros.",
+"Start now":"Empieza ahora",
+"Have you looked for your name on Google?":"¿Has buscado tu nombre en Google?",
+"You do not have the control of your public information. Create your own digital business card and show only what you want to show the world about you.":"No tienes el control de tu información pública. Crea tu propia tarjeta de visita digital y muestra solo aquello que quieras mostrar al mundo de ti.",
+"Create your business card":"Crea tu tarjeta de visita",
+"Do you have a business or you know someone with one?":"¿Tienes un negocio o conoces a alguien con uno?",
+"Do not you have a website? You are losing money and opportunities! Create a web page / digital business card in 3 minutes and start earning.":"¿No tienes una web? ¡Estás perdiendo dinero y oportunidades! Create una página web /tarjeta de visita digital en 3 minutos y empieza a ganar.",
+"Try it now":"Pruébalo ahora",
+"What does the business card include?":"¿Qué incluye la tarjeta de visita?",
+"Custom domain":"Dominio personalizado",
+"Your digital business card will have a domain like 'www.myname.com' so you will have a professional image.":"Tu tarjeta de visita digital tendrá un dominio del tipo 'www.minombre.com'. De este modo, conseguirás tener una imagen totalmente profesional.",
+'No apps or downloads':'Sin apps o descargas',
+'Get your digital business card with the latest web technology and enjoy with no limits. Every device.':'Consigue tu tarjeta de visita digital con la última tecnología web y utilízala sin límites para cualquier dispositivo.',
+'Share your data quickly':'Comparte tus datos rápidamente',
+'Share your business card with one click and connect with all social networks.':'Comparte tu tarjeta de visita con un solo clic y conecta con todas las redes sociales.',
+'...and all this in just 3 steps':'...y todo esto en solo 3 pasos',
+'Contacts and biography':'Contactos y biografía',
+'Easier than Facebook! Choose an image, personal information and a short biography so that everyone knows who you are.':'¡Más fácil que Facebook! Elige una imagen, completa tu información personal y una pequeña biografía para que todos sepan quién eres.',
+'Add your social networks':'Añade tus redes sociales',
+'Add your social networks to stay connected to the world and do not miss anything!':'¡Añade tus redes sociales para mantenerte conectado con el mundo y no te pierdas nada!',
+'Select the template':'Selecciona la plantilla',
+'You have at your disposal many templates. Choose yours and start using your digital business card!':'Tienes a tu disposición multitud de plantillas ¡Elige la tuya y comienza a usar tu tarjeta de visita digital!',
+'Try it yourself!':'¡Pruébalo por ti mismo!',
+'And all that for only':'¡Y todo esto por solo',
+'9 euros':'9 euros',
+'a month!':'al mes!',
+'Get yours':'Consigue la tuya',
+'What our clients say':'¿Qué opinan nuestros clientes?',
+'Many people have already created their business card!':'¡Muchos ya tienen su propia tarjeta de visita!',
+'Small business':'Pequeños negocios',
+'Shops':'Tiendas',
+'Photographers':'Fotógrafos',
+'Musicians':'Músicos',
+'Politicians':'Políticos',
+'Designers':'Diseñadores',
+'Students':'Estudiantes',
+'Writers':'Escritores',
+'Videographers':'Fans de video',
+'Travelers':'Viajeros',
+'Athletes':'Deportistas',
+'Entrepreneurs':'Emprendedores',
+'Artists':'Artistas',
+'Realtors':'Asesores',
+'Teachers':'Profesores',
+'Technologists':'Informáticos',
+'Marketers':'Comerciales',
+'And more!':'¡Y más!',
+'Click and look at some digital business cards:':'Haz clic y mira algunas tarjetas de visita digitales:',
+'Show all':'Mostrar todo',
+'Personal':'Personal',
+'Professionals':'Profesionales',
+'Shops':'Tiendas',
+'Forum Raumgestaltung, Germany':'Forum Raumgestaltung, Alemania',
+'Backyard spectacles, Alaska, USA':'Backyard spectacles, Alaska, EEUU',
+'Richmond Partner, Silicon Valley, USA':'Richmond Partner, Silicon Valley, EEUU',
+'Godzilla surf shop, Canary Islands, Spain':'Godzilla surf shop, Islas Canarias, España',
+'Vincent Parker, USA':'Vincent Parker, EEUU',
+'Ivan Kovacevic, Croatia':'Ivan Kovacevic, Croacia',
+'Coava shop, USA':'Coava shop, EEUU',
+'MPR Gruppen, Norway':'MPR Gruppen, Noruega',
+'Benjamin Kulling, Switzerland':'Benjamin Kulling, Suiza',
+'Blue Moon boo, Japan':'Blue Moon boo, Japón',
+'Earn with your business card!':'¡Gana dinero con tu tarjeta de visita!',
+'Earn':'Gana',
+'For each person who creates a digital business card from you, you earn':'Por cada persona que se cree una tarjeta de visita digital a través de ti, tú ganas',
+'8 euros':'8 euros',
+'per new digital business card':'por tarjeta de visita digital',
+'Offer it to your contacts and earn!':'¡Ofrécela a todos tus contactos y gana dinero!',
+'For each new card, earn points and more money':'Por cada nueva tarjeta, tú ganas puntos y más dinero',
+'Earn points for each new card through your contacts and the contacts of your contacts. And every point, more money!':'Gana puntos por cada nueva tarjeta a través de los contactos de tus contactos. ¡Y cada punto es más dinero!',
+'You mark your own goals':'Tú te marcas tus propios objetivos',
+'Are you interested in earning money with your digital business card?':'¿Estás interesado en ganar dinero con tu tarjeta de visita digital?',
+'Click here for more details':'Haz clic para más detalles',
+'Do you want to see the digital business card...':'¿Quieres ver la tarjeta de visita digital...',
+'...of the CEO of BusinessCard.Digital?':'...del Director de BusinessCard.Digital?',
+'Meet to Ivan G. Marfil':'Conoce a Ivan G. Marfil',
+'Doubts? Write me to':'¿Dudas? Escríbeme a',
+'Powered by':'Con la tecnología de',
+'and':'y',
+'All rights reserved':'Todos los derechos reservados',
+'':''
+};
+
+
+
+//----------------------------------- TRANSLATE SYSTEM -------------------------------------------------------------------------------
+
+selected_language = null;
+hash_language = null;
+main_lang = 'en';
+
+//Get the language updated
+selected_language = localStorage.getItem('selected_language');
+
+if (selected_language === null || typeof selected_language === 'undefined') {
+	final_lang = main_lang;
+	get_lang = window.navigator.language.toLowerCase() || navigator.browserLanguage.toLowerCase();
+	
+	//Get language browser
+	if (get_lang.match('en')) { final_lang = 'en'; }
+	else if (get_lang.match('es')) { final_lang = 'es'; }
+	else { get_lang = false; }
+	
+	selected_language = localStorage.setItem('selected_language', final_lang);
+	selected_language = localStorage.getItem('selected_language');
+	if (selected_language !== 'en') { var hash_language = this[final_lang + '_language']; }
+	
+} else { if (selected_language !== 'en') { var hash_language = this[selected_language + '_language']; }}
+
+
+//Get the language updated
+
+//Get the language updated
+function set_english_language() {
+	selected_language = localStorage.setItem('selected_language', 'en');
+	window.location.reload();
+}
+function set_spanish_language() {
+	selected_language = localStorage.setItem('selected_language', 'es');
+	window.location.reload();
+}
+//Get the language updated
+
+
+//Translate sentences
+function translate_sentence(sentence) {
+	if (selected_language !== 'en') {
+		if (hash_language[sentence] === null || typeof hash_language[sentence] === 'undefined') {return(sentence); }
+		else { return (hash_language[sentence]); }
+	} else { return(sentence); }
+}
+function show_translated_sentence(sentence) {
+	if (selected_language != 'en') {
+		if (hash_language[sentence] === null || typeof hash_language[sentence] === 'undefined') { document.write(sentence); }
+		else { document.write(hash_language[sentence]); }
+	} else { document.write(sentence); }
+}
+//Translate sentences
+
+
+
+// Show video customers video
+function show_vimeo_customers_video() {
+	if (selected_language == 'es') {
+		document.write('<iframe src="https://player.vimeo.com/video/192513772?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+	} else {
+		document.write('<iframe src="https://player.vimeo.com/video/191745000?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+	}
+}
+
+// Show video premium video
+function show_vimeo_premium_video() {
+	document.write('<iframe src=\"https://player.vimeo.com/video/190679398?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>');
+}
+
+
+// Show social network icons section
+function show_social_icons_section() {
+	document.write("<div class='panel-grid' id='pg-8-12'><div class='siteorigin-panels-stretch panel-row-style' style='background-color:#d65050;color: #ffffff;padding: 25px 0; ' data-stretch-type='full' data-hascolor='hascolor' data-overlay='true'><div class='panel-grid-cell' id='pgc-8-12-0'><div class='so-panel widget widget_fp_social panel-first-child panel-last-child' id='panel-8-12-0-0' data-index='15'><div class='menu-social-container'><ul id='menu-social' class='menu social-menu-widget clearfix'><li id='menu-item-64' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-64'><a href='https://www.facebook.com/sharer/sharer.php?u=www.BusinessCard.Digital' title='Facebook'><span class='screen-reader-text'>Fb</span></a></li><li id='menu-item-65' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-65'><a title='Twitter' href='http://twitter.com/share?url=http://BusinessCard.Digital&amp;hashtags=DigitalBusinessCard'><span class='screen-reader-text'>Twitter</span></a></li><li id='menu-item-66' class='menu-item menu-item-type-custom menu-item-object-custom menu-item-66'><a title='Google+' href='https://plus.google.com/share?url=http://businesscard.digital' target='_blank'><span class='screen-reader-text'>Google plus</span></a></li></ul></div></div></div></div></div>");
+}
+
+
+
 window.NREUM || (NREUM = {}), __nr_require = function(e, t, n) {
 	function r(n) {
 		if (!t[n]) {
