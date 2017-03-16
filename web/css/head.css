@@ -1270,6 +1270,15 @@ Hero section
 	  -webkit-animation-name: fadeInRightBig;
 	  animation-name: fadeInRightBig;
 	}
+	#slide-down {
+		position: absolute;
+		left: 50%;
+		bottom: 25px;
+		margin-left: -16px;
+		width: 32px;
+		height: 32px;
+		background-image: url(https://2.bp.blogspot.com/-0Gb8QIBaQ5o/WMqLgSr3gfI/AAAAAAAAA28/K2UMahVBn8QhkjU8M4zcUHi-FFaad0FjQCLcB/s1600/slide-down.png);
+	}
 @-webkit-keyframes fadeInRightBig {
   from {
     right: -99em;
