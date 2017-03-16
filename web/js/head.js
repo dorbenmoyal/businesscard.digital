@@ -82,7 +82,7 @@ es_language = {
 'Earn points for each new card through your contacts and the contacts of your contacts. And every point, more money!':'Gana puntos por cada nueva tarjeta a través de los contactos de tus contactos. ¡Y cada punto es más dinero!',
 'You mark your own goals':'Tú te marcas tus propios objetivos',
 'Are you interested in earning money with your digital business card?':'¿Estás interesado en ganar dinero con tu tarjeta de visita digital?',
-'Click here for more details':'Haz clic para más detalles',
+'Click here for more details.':'Haz clic para más detalles.',
 'Do you want to see the digital business card...':'¿Quieres ver la tarjeta de visita digital...',
 '...of the CEO of BusinessCard.Digital?':'...del Director de BusinessCard.Digital?',
 'Meet to Ivan G. Marfil':'Conoce a Ivan G. Marfil',
