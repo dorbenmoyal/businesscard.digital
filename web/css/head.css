@@ -752,6 +752,10 @@ Header
 	.site-title table {
 		width: 100%;
 	}
+	td.site-eslogan img {
+		height: 15px;
+		width: auto;
+	}
 	.site-description {
 		font-size: 16px;
 		margin: 0 !important;
