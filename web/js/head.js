@@ -94,7 +94,7 @@ es_language = {
 'Premium plan':'Plan premium',
 'month':'mes',
 'Get it now':'Consíguelo ya',
-'www.myname.com':'www.minombre.com',
+'www.myname.com':'www.nombre.com',
 'Unlimited data':'Datos ilimitados',
 'Unlimited images':'Imágenes ilimitadas',
 'Unlimited videos':'Videos ilimitados',
