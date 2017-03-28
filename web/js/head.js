@@ -19,7 +19,7 @@ es_language = {
 "Do not you have a website? You are losing money and opportunities! Create a web page / digital business card in 3 minutes and start earning.":"¿No tienes una web? ¡Estás perdiendo dinero y oportunidades! Create una página web /tarjeta de visita digital en 3 minutos y empieza a ganar.",
 "Try it now":"Pruébalo ahora",
 "What does the business card include?":"¿Qué incluye la tarjeta de visita?",
-"Custom domain":"Dominio personalizado",
+"Custom domain":"Dominio propio",
 "Your digital business card will have a domain like www.myname.com so you will have a professional image.":"Tu tarjeta de visita digital tendrá un dominio del tipo www.minombre.com. De este modo, conseguirás tener una imagen totalmente profesional.",
 'No apps or downloads':'Sin apps o descargas',
 'Get your digital business card with the latest web technology and enjoy with no limits. Every device.':'Consigue tu tarjeta de visita digital con la última tecnología web y utilízala sin límites para cualquier dispositivo.',
